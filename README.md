@@ -25,7 +25,7 @@ To get a local copy of the project up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your Repository URL Here]
+    git clone (https://github.com/sriharsha778/Task-Scheduler)
     cd TaskScheduler
     ```
 2.  **Install dependencies:**
