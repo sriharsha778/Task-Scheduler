@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+### Task Scheduler App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and intuitive cross-platform mobile application designed to help users manage their daily, weekly, and miscellaneous tasks. This app provides a seamless user experience with powerful features for organizing personal to-dos.
 
-## Get started
+#### **Features** ✨
 
-1. Install dependencies
+* **Persistent Task Management**: All tasks are stored locally using **AsyncStorage**, ensuring your data is saved even after closing the app.
+* **Intuitive UI**: The app features a clean user interface with separate screens for managing different task types.
+* **Task Categorization**: Organize your tasks into three categories: **Daily**, **Weekly**, and **Miscellaneous**.
+* **Smooth Task Deletion**: Easily remove tasks from your list with a fluid **swipe-to-delete** gesture.
+* **Dedicated Task Creation Page**: A separate, scrollable screen allows for easy and organized task input.
 
-   ```bash
-   npm install
-   ```
+#### **Tech Stack** 💻
 
-2. Start the app
+* **Frontend Framework**: React Native
+* **Development Platform**: Expo
+* **State Management**: React Hooks (`useState`, `useEffect`)
+* **Local Storage**: AsyncStorage
+* **Navigation**: React Navigation
+* **Gestures & Animation**: `react-native-gesture-handler` & `react-native-reanimated`
 
-   ```bash
-   npx expo start
-   ```
+#### **Installation & Setup** 🚀
 
-In the output, you'll find options to open the app in a
+To get a local copy of the project up and running, follow these simple steps.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your Repository URL Here]
+    cd TaskScheduler
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the application:**
+    ```bash
+    npx expo start
+    ```
+    This command will open the Expo DevTools in your browser. You can then run the app on an Android emulator, iOS simulator, or your physical device using the Expo Go app.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+#### **APK Download** 📱
 
-## Get a fresh project
+You can download a pre-built Android APK file to test the application directly on your device.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Download APK**: [https://expo.dev/accounts/harshasaisri484/projects/TaskScheduler/builds/3922dc36-fecc-42a5-b13d-386f3553ff3d](https://expo.dev/accounts/harshasaisri484/projects/TaskScheduler/builds/3922dc36-fecc-42a5-b13d-386f3553ff3d)
